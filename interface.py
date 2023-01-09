@@ -9,6 +9,11 @@ def hello_flask():
     print("Welcome to flask")
     return "Hello Flask"
 
+
+# @app.route("/")  
+# def hello_flask():
+#     print("Welcome to flask")
+#     return "Hello Flask"
 ################################################################################################
 
 @app.route("/predict_charges")
