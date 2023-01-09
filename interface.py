@@ -32,11 +32,7 @@ def get_insurance_charges():
     med_ins = MedicalInsurance(age,sex,bmi,children,smoker,region)
     charges = med_ins.get_predicted_charges()
 
-    return jsonify({"Result":f"Predicted Medical Insurance Charges are :{charges}"})
 
-@app.route("/")  
-def hello_flask():
-    print("Welcome to flask")
     return "Hello Flask"
 
 
