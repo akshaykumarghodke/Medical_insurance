@@ -9,7 +9,6 @@ app  = Flask(__name__)
 
     print("Welcome to flask")
     return "Hello Flask"
-https://github.com/akshaykumarghodke/Medical_insurance.githttps://github.com/akshaykumarghodke/Medical_insurance.git
 
 
 
